@@ -1,0 +1,204 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf) format("truetype");
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: myFirstFont;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  width: 650px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+.result {
+  display: inline-block;
+  flex: 1;
+  border-radius: 30px;
+  background-color: hsl(241, 81%, 54%);
+  text-align: center;
+  padding: 40px;
+}
+.result-text {
+  color: hsl(241, 100%, 89%);
+  margin-bottom: 30px;
+}
+.article {
+  border-radius: 100px;
+
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+  margin: auto;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsl(241, 81%, 54%)
+  );
+}
+.total-grade {
+  color: white;
+
+  font-size: 70px;
+  font-weight: bold;
+}
+.full-mark {
+  color: hsl(241, 100%, 89%);
+  bottom: 3px;
+  left: 5px;
+  right: 5px;
+  font-weight: bold;
+}
+.greeting {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.greeting-sen {
+  color: hsl(241, 100%, 89%);
+  padding: 10px;
+}
+.summary {
+  display: inline-block;
+  flex: 1;
+  padding: 30px;
+}
+.summary-text {
+  margin-bottom: 30px;
+
+  margin-top: 10px;
+}
+.first {
+  background-color: hsl(0, 100%, 67%, 0.1);
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  width: 234.994px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.reaction-image {
+  display: inline-block;
+}
+.reaction-text {
+  display: inline-block;
+  color: hsl(0, 100%, 67%);
+  font-weight: bold;
+}
+.reaction-grade {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  font-weight: bold;
+}
+.second {
+  background-color: hsl(39, 100%, 56%, 0.1);
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  width: 234.994px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.memory-image {
+  display: inline-block;
+}
+.memory-text {
+  display: inline-block;
+  color: hsl(39, 100%, 56%);
+  font-weight: bold;
+}
+.memory-grade {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  font-weight: bold;
+}
+.third {
+  background-color: hsl(166, 100%, 37%, 0.1);
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  width: 234.994px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.verbal-image {
+  display: inline-block;
+}
+.verbal-text {
+  display: inline-block;
+  color: hsl(166, 100%, 37%);
+  font-weight: bold;
+}
+.verbal-grade {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  font-weight: bold;
+}
+.forth {
+  background-color: hsl(234, 85%, 45%, 0.1);
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  width: 234.994px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.visual-image {
+  display: inline-block;
+}
+.visual-text {
+  display: inline-block;
+  color: hsl(234, 85%, 45%);
+  font-weight: bold;
+}
+.visual-grade {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  font-weight: bold;
+}
+.button {
+  width: 264.994px;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: hsl(241, 81%, 54%);
+  font-size: 20px;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  transition: obacity 0.3s;
+}
+.button:hover {
+  opacity: 0.9;
+}
+strong {
+  color: black;
+}
