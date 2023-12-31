@@ -91,10 +91,12 @@ body {
 }
 .reaction-image {
   display: inline-block;
+  vertical-align: middle;
 }
 .reaction-text {
   display: inline-block;
   color: hsl(0, 100%, 67%);
+  vertical-align: middle;
   font-weight: bold;
 }
 .reaction-grade {
@@ -117,11 +119,13 @@ body {
 }
 .memory-image {
   display: inline-block;
+  vertical-align: middle;
 }
 .memory-text {
   display: inline-block;
   color: hsl(39, 100%, 56%);
   font-weight: bold;
+  vertical-align: middle;
 }
 .memory-grade {
   display: inline-block;
@@ -143,10 +147,12 @@ body {
 }
 .verbal-image {
   display: inline-block;
+  vertical-align: middle;
 }
 .verbal-text {
   display: inline-block;
   color: hsl(166, 100%, 37%);
+  vertical-align: middle;
   font-weight: bold;
 }
 .verbal-grade {
@@ -169,10 +175,12 @@ body {
 }
 .visual-image {
   display: inline-block;
+  vertical-align: middle;
 }
 .visual-text {
   display: inline-block;
   color: hsl(234, 85%, 45%);
+  vertical-align: middle;
   font-weight: bold;
 }
 .visual-grade {
